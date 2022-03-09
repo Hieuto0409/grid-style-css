@@ -1,4 +1,18 @@
-
+.grid{
+    max-width: 1200px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display:flex;
+    flex: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.col{
+    padding:0 4px;
+}
 .c-0 {
     display: none;
 }
